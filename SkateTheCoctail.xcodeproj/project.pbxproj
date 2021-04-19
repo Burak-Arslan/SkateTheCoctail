@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFCDCFA5262D710F0014A00E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDCFA4262D710F0014A00E /* AppDelegate.swift */; };
+		BFCDCFA7262D710F0014A00E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDCFA6262D710F0014A00E /* SceneDelegate.swift */; };
+		BFCDCFA9262D710F0014A00E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDCFA8262D710F0014A00E /* ViewController.swift */; };
+		BFCDCFAC262D710F0014A00E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFCDCFAA262D710F0014A00E /* Main.storyboard */; };
+		BFCDCFAF262D710F0014A00E /* SkateTheCoctail.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFCDCFAD262D710F0014A00E /* SkateTheCoctail.xcdatamodeld */; };
+		BFCDCFB1262D71120014A00E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFCDCFB0262D71120014A00E /* Assets.xcassets */; };
+		BFCDCFB4262D71120014A00E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFCDCFB2262D71120014A00E /* LaunchScreen.storyboard */; };
+		BFCDCFBF262D71130014A00E /* SkateTheCoctailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDCFBE262D71130014A00E /* SkateTheCoctailTests.swift */; };
+		BFCDCFCA262D71130014A00E /* SkateTheCoctailUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDCFC9262D71130014A00E /* SkateTheCoctailUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFCDCFBB262D71130014A00E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFCDCF99262D710F0014A00E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFCDCFA0262D710F0014A00E;
+			remoteInfo = SkateTheCoctail;
+		};
+		BFCDCFC6262D71130014A00E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFCDCF99262D710F0014A00E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFCDCFA0262D710F0014A00E;
+			remoteInfo = SkateTheCoctail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFCDCFA1262D710F0014A00E /* SkateTheCoctail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkateTheCoctail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCDCFA4262D710F0014A00E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFCDCFA6262D710F0014A00E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BFCDCFA8262D710F0014A00E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFCDCFAB262D710F0014A00E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFCDCFAE262D710F0014A00E /* SkateTheCoctail.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SkateTheCoctail.xcdatamodel; sourceTree = "<group>"; };
+		BFCDCFB0262D71120014A00E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFCDCFB3262D71120014A00E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFCDCFB5262D71120014A00E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFCDCFBA262D71130014A00E /* SkateTheCoctailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkateTheCoctailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCDCFBE262D71130014A00E /* SkateTheCoctailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkateTheCoctailTests.swift; sourceTree = "<group>"; };
+		BFCDCFC0262D71130014A00E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFCDCFC5262D71130014A00E /* SkateTheCoctailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkateTheCoctailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCDCFC9262D71130014A00E /* SkateTheCoctailUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkateTheCoctailUITests.swift; sourceTree = "<group>"; };
+		BFCDCFCB262D71130014A00E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFCDCF9E262D710F0014A00E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCDCFB7262D71130014A00E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCDCFC2262D71130014A00E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFCDCF98262D710F0014A00E = {
+			isa = PBXGroup;
+			children = (
+				BFCDCFA3262D710F0014A00E /* SkateTheCoctail */,
+				BFCDCFBD262D71130014A00E /* SkateTheCoctailTests */,
+				BFCDCFC8262D71130014A00E /* SkateTheCoctailUITests */,
+				BFCDCFA2262D710F0014A00E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFCDCFA2262D710F0014A00E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFCDCFA1262D710F0014A00E /* SkateTheCoctail.app */,
+				BFCDCFBA262D71130014A00E /* SkateTheCoctailTests.xctest */,
+				BFCDCFC5262D71130014A00E /* SkateTheCoctailUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFCDCFA3262D710F0014A00E /* SkateTheCoctail */ = {
+			isa = PBXGroup;
+			children = (
+				BFCDCFA4262D710F0014A00E /* AppDelegate.swift */,
+				BFCDCFA6262D710F0014A00E /* SceneDelegate.swift */,
+				BFCDCFA8262D710F0014A00E /* ViewController.swift */,
+				BFCDCFAA262D710F0014A00E /* Main.storyboard */,
+				BFCDCFB0262D71120014A00E /* Assets.xcassets */,
+				BFCDCFB2262D71120014A00E /* LaunchScreen.storyboard */,
+				BFCDCFB5262D71120014A00E /* Info.plist */,
+				BFCDCFAD262D710F0014A00E /* SkateTheCoctail.xcdatamodeld */,
+			);
+			path = SkateTheCoctail;
+			sourceTree = "<group>";
+		};
+		BFCDCFBD262D71130014A00E /* SkateTheCoctailTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFCDCFBE262D71130014A00E /* SkateTheCoctailTests.swift */,
+				BFCDCFC0262D71130014A00E /* Info.plist */,
+			);
+			path = SkateTheCoctailTests;
+			sourceTree = "<group>";
+		};
+		BFCDCFC8262D71130014A00E /* SkateTheCoctailUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFCDCFC9262D71130014A00E /* SkateTheCoctailUITests.swift */,
+				BFCDCFCB262D71130014A00E /* Info.plist */,
+			);
+			path = SkateTheCoctailUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFCDCFA0262D710F0014A00E /* SkateTheCoctail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFCDCFCE262D71130014A00E /* Build configuration list for PBXNativeTarget "SkateTheCoctail" */;
+			buildPhases = (
+				BFCDCF9D262D710F0014A00E /* Sources */,
+				BFCDCF9E262D710F0014A00E /* Frameworks */,
+				BFCDCF9F262D710F0014A00E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkateTheCoctail;
+			productName = SkateTheCoctail;
+			productReference = BFCDCFA1262D710F0014A00E /* SkateTheCoctail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFCDCFB9262D71130014A00E /* SkateTheCoctailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFCDCFD1262D71130014A00E /* Build configuration list for PBXNativeTarget "SkateTheCoctailTests" */;
+			buildPhases = (
+				BFCDCFB6262D71130014A00E /* Sources */,
+				BFCDCFB7262D71130014A00E /* Frameworks */,
+				BFCDCFB8262D71130014A00E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFCDCFBC262D71130014A00E /* PBXTargetDependency */,
+			);
+			name = SkateTheCoctailTests;
+			productName = SkateTheCoctailTests;
+			productReference = BFCDCFBA262D71130014A00E /* SkateTheCoctailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFCDCFC4262D71130014A00E /* SkateTheCoctailUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFCDCFD4262D71130014A00E /* Build configuration list for PBXNativeTarget "SkateTheCoctailUITests" */;
+			buildPhases = (
+				BFCDCFC1262D71130014A00E /* Sources */,
+				BFCDCFC2262D71130014A00E /* Frameworks */,
+				BFCDCFC3262D71130014A00E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFCDCFC7262D71130014A00E /* PBXTargetDependency */,
+			);
+			name = SkateTheCoctailUITests;
+			productName = SkateTheCoctailUITests;
+			productReference = BFCDCFC5262D71130014A00E /* SkateTheCoctailUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFCDCF99262D710F0014A00E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					BFCDCFA0262D710F0014A00E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					BFCDCFB9262D71130014A00E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = BFCDCFA0262D710F0014A00E;
+					};
+					BFCDCFC4262D71130014A00E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = BFCDCFA0262D710F0014A00E;
+					};
+				};
+			};
+			buildConfigurationList = BFCDCF9C262D710F0014A00E /* Build configuration list for PBXProject "SkateTheCoctail" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFCDCF98262D710F0014A00E;
+			productRefGroup = BFCDCFA2262D710F0014A00E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFCDCFA0262D710F0014A00E /* SkateTheCoctail */,
+				BFCDCFB9262D71130014A00E /* SkateTheCoctailTests */,
+				BFCDCFC4262D71130014A00E /* SkateTheCoctailUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFCDCF9F262D710F0014A00E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCDCFB4262D71120014A00E /* LaunchScreen.storyboard in Resources */,
+				BFCDCFB1262D71120014A00E /* Assets.xcassets in Resources */,
+				BFCDCFAC262D710F0014A00E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCDCFB8262D71130014A00E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCDCFC3262D71130014A00E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFCDCF9D262D710F0014A00E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCDCFAF262D710F0014A00E /* SkateTheCoctail.xcdatamodeld in Sources */,
+				BFCDCFA9262D710F0014A00E /* ViewController.swift in Sources */,
+				BFCDCFA5262D710F0014A00E /* AppDelegate.swift in Sources */,
+				BFCDCFA7262D710F0014A00E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCDCFB6262D71130014A00E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCDCFBF262D71130014A00E /* SkateTheCoctailTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCDCFC1262D71130014A00E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCDCFCA262D71130014A00E /* SkateTheCoctailUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFCDCFBC262D71130014A00E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFCDCFA0262D710F0014A00E /* SkateTheCoctail */;
+			targetProxy = BFCDCFBB262D71130014A00E /* PBXContainerItemProxy */;
+		};
+		BFCDCFC7262D71130014A00E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFCDCFA0262D710F0014A00E /* SkateTheCoctail */;
+			targetProxy = BFCDCFC6262D71130014A00E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFCDCFAA262D710F0014A00E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFCDCFAB262D710F0014A00E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFCDCFB2262D71120014A00E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFCDCFB3262D71120014A00E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFCDCFCC262D71130014A00E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFCDCFCD262D71130014A00E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFCDCFCF262D71130014A00E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2K3XSNH6Z;
+				INFOPLIST_FILE = SkateTheCoctail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = burakarslan.SkateTheCoctail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFCDCFD0262D71130014A00E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2K3XSNH6Z;
+				INFOPLIST_FILE = SkateTheCoctail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = burakarslan.SkateTheCoctail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFCDCFD2262D71130014A00E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2K3XSNH6Z;
+				INFOPLIST_FILE = SkateTheCoctailTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = burakarslan.SkateTheCoctailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkateTheCoctail.app/SkateTheCoctail";
+			};
+			name = Debug;
+		};
+		BFCDCFD3262D71130014A00E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2K3XSNH6Z;
+				INFOPLIST_FILE = SkateTheCoctailTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = burakarslan.SkateTheCoctailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkateTheCoctail.app/SkateTheCoctail";
+			};
+			name = Release;
+		};
+		BFCDCFD5262D71130014A00E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2K3XSNH6Z;
+				INFOPLIST_FILE = SkateTheCoctailUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = burakarslan.SkateTheCoctailUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkateTheCoctail;
+			};
+			name = Debug;
+		};
+		BFCDCFD6262D71130014A00E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2K3XSNH6Z;
+				INFOPLIST_FILE = SkateTheCoctailUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = burakarslan.SkateTheCoctailUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkateTheCoctail;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFCDCF9C262D710F0014A00E /* Build configuration list for PBXProject "SkateTheCoctail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFCDCFCC262D71130014A00E /* Debug */,
+				BFCDCFCD262D71130014A00E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFCDCFCE262D71130014A00E /* Build configuration list for PBXNativeTarget "SkateTheCoctail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFCDCFCF262D71130014A00E /* Debug */,
+				BFCDCFD0262D71130014A00E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFCDCFD1262D71130014A00E /* Build configuration list for PBXNativeTarget "SkateTheCoctailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFCDCFD2262D71130014A00E /* Debug */,
+				BFCDCFD3262D71130014A00E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFCDCFD4262D71130014A00E /* Build configuration list for PBXNativeTarget "SkateTheCoctailUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFCDCFD5262D71130014A00E /* Debug */,
+				BFCDCFD6262D71130014A00E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BFCDCFAD262D710F0014A00E /* SkateTheCoctail.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BFCDCFAE262D710F0014A00E /* SkateTheCoctail.xcdatamodel */,
+			);
+			currentVersion = BFCDCFAE262D710F0014A00E /* SkateTheCoctail.xcdatamodel */;
+			path = SkateTheCoctail.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BFCDCF99262D710F0014A00E /* Project object */;
+}
