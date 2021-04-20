@@ -7,14 +7,24 @@
 
 import UIKit
 import CoreData
+import RxSwift
+import Atlantis
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
+    var window: UIWindow?
+    private var appCoordinator : AppCoordinator!
+    private var disposeBag  = DisposeBag()
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        Atlantis.start()
+        window = UIWindow()
+        appCoordinator = AppCoordinator(window: window!)
+        appCoordinator.start().subscribe().disposed(by: disposeBag)
+        
         return true
     }
 
