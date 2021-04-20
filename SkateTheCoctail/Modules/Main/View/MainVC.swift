@@ -16,7 +16,7 @@ class MainVC: BaseVC<MainVM> {
         super.viewDidLoad()
         self.viewModel?.getCocktail()
         
-        viewModel?.cocktailInfo.subscribe(onNext : { [self](data) in
+        viewModel?.cocktailInfo.subscribe(onNext : {(data) in
             var test = ""
         }).disposed(by: loadingDisposeBag)
     }
