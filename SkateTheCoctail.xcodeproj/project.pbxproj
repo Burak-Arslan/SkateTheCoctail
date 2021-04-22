@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF2A6B9C263046F00065DCF4 /* UIImageView+Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2A6B9B263046F00065DCF4 /* UIImageView+Download.swift */; };
 		BF556843262DE82100F27B59 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BF556842262DE82100F27B59 /* RxSwift */; };
 		BF556845262DE82100F27B59 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = BF556844262DE82100F27B59 /* RxRelay */; };
 		BF556847262DE82100F27B59 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = BF556846262DE82100F27B59 /* RxCocoa */; };
@@ -64,6 +65,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF2A6B9B263046F00065DCF4 /* UIImageView+Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Download.swift"; sourceTree = "<group>"; };
 		BF55684E262DEAED00F27B59 /* BaseVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVM.swift; sourceTree = "<group>"; };
 		BF556853262DEB0400F27B59 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
 		BF556859262DEB3600F27B59 /* UIViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 			children = (
 				BF556859262DEB3600F27B59 /* UIViewController + Extension.swift */,
 				BF556899262DF53D00F27B59 /* UIColor + Extension.swift */,
+				BF2A6B9B263046F00065DCF4 /* UIImageView+Download.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -490,6 +493,7 @@
 				BF5568A9262E004000F27B59 /* NetworkManager.swift in Sources */,
 				BF5568A0262E000300F27B59 /* CocktailResponse.swift in Sources */,
 				BFCDCFA5262D710F0014A00E /* AppDelegate.swift in Sources */,
+				BF2A6B9C263046F00065DCF4 /* UIImageView+Download.swift in Sources */,
 				BFCDCFA7262D710F0014A00E /* SceneDelegate.swift in Sources */,
 				BF556885262DEFE300F27B59 /* MainCoordinator.swift in Sources */,
 				BF55684F262DEAED00F27B59 /* BaseVM.swift in Sources */,
