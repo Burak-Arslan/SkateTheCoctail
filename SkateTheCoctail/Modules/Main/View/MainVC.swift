@@ -39,15 +39,31 @@ class MainVC: BaseVC<MainVM> {
     
     func getCallService(){
         viewModel?.cocktailInfo.subscribe(onNext : {(data) in
-            var arr = [String]()
-            for (key, value) in data.drinks[0] {
-                arr.append("\(key) \(value)")
+            
+            var arr = [String: String]()
+            
+            for (key, values) in data.drinks[0] {
+                arr.updateValue(values ?? "", forKey: key)
             }
             
-            for x in 0..<arr.count {
-              var test = arr[x]
+            let newDict = Dictionary(uniqueKeysWithValues:
+                arr.map { key, value in (key.lowercased(), value.lowercased()) })
+            
+            for i in newDict.keys {
+                let ci = newDict[String(i)] ?? ""
+                if(i.isEqual("strdrinkthumb")){
+                    self.imgCocktail.load(url: URL(string: String(ci))!)
+                }
+                if(i.isEqual("strinstructions")){
+                    self.lblDescription.text = ci
+                }
+                if(i.isEqual("strdrink")){
+                    self.lblDrinkName.text = ci
+                }
+                if(i.isEqual("strcategory")){
+                    self.lblDrinkCategory.text = ci
+                }
             }
-
         }).disposed(by: loadingDisposeBag)
     }
     
@@ -58,7 +74,7 @@ class MainVC: BaseVC<MainVM> {
             audioPlayer = try AVAudioPlayer(contentsOf: url)
             audioPlayer?.play()
         }catch{
-            var test = ""
+           print(error)
         }
     }
 
